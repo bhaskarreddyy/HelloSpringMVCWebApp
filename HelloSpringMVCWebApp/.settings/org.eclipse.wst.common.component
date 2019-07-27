@@ -2,6 +2,40 @@
     <wb-module deploy-name="HelloSpringMVCWebApp">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/WebContent/WEB-INF/lib"/>
+        <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/commons-logging-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/aopalliance-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet-api-3.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/javax.servlet-api-3.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/jstl-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.1.6.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/Learnings/Spring/MVC/spring4helloworld/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="HelloSpringMVCWebApp"/>
         <property name="java-output-path" value="/HelloSpringMVCWebApp/build/classes"/>
     </wb-module>
